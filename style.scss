@@ -25,21 +25,17 @@ header {
     }
 
     img {
-
-        width: 9rem;
+      width: 9rem;
 
       @media only screen and (max-width: 1150px) {
         width: 5rem;
       }
 
-
       @media only screen and (max-width: 600px) {
         width: 12rem;
-     
+
         margin: 10px 0 20px 0;
-              }
-
-
+      }
     }
     ul {
       width: 100%;
@@ -48,8 +44,6 @@ header {
       justify-content: space-evenly;
       align-items: center;
       font-size: 1.3rem;
-
-    
 
       @media only screen and (max-width: 1300px) {
         font-size: 1.1rem;
@@ -70,24 +64,17 @@ header {
       }
 
       @media only screen and (max-width: 600px) {
-  
         flex-direction: column;
-     margin: 0 0 10px 0;
+        margin: 0 0 10px 0;
         align-items: center;
         font-size: 1.3rem;
-              }
+      }
 
-li{
-
-    @media only screen and (max-width: 600px) {
-    
-        margin: 10px 0 10px 0;
-              }
-
-}
-
-
-
+      li {
+        @media only screen and (max-width: 600px) {
+          margin: 10px 0 10px 0;
+        }
+      }
     }
   }
 }
@@ -95,6 +82,10 @@ li{
 .imagem-topo {
   img {
     width: 100vw;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
   }
 }
 
@@ -103,6 +94,10 @@ li{
   justify-content: space-around;
   align-items: center;
   margin: 3rem 0;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 
   .imagem-produtos {
     img {
@@ -128,6 +123,10 @@ li{
   margin-bottom: 3rem;
   flex-wrap: wrap;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 
   h3 {
     width: 20rem;

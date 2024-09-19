@@ -88,12 +88,22 @@ header nav ul {
 .imagem-topo img {
   width: 100vw;
 }
+@media only screen and (max-width: 600px) {
+  .imagem-topo img {
+    display: none;
+  }
+}
 
 .informacao {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 3rem 0;
+}
+@media only screen and (max-width: 900px) {
+  .informacao {
+    flex-direction: column;
+  }
 }
 .informacao .imagem-produtos img {
   width: 22rem;
@@ -114,6 +124,11 @@ header nav ul {
   margin-bottom: 3rem;
   flex-wrap: wrap;
   align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .produtos {
+    flex-direction: column;
+  }
 }
 .produtos h3 {
   width: 20rem;
