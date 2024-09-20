@@ -169,7 +169,6 @@ header nav ul {
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 @media only screen and (max-width: 900px) {
   .produtos ul {
