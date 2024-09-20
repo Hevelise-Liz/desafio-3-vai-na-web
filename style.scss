@@ -37,8 +37,11 @@ header {
 
       @media only screen and (max-width: 900px) {
         width: 18rem;
-
         margin: 20px 0;
+      }
+
+      @media only screen and (max-width: 480px) {
+        width: 12rem;
       }
     }
     ul {
@@ -66,14 +69,25 @@ header {
 
       @media only screen and (max-width: 900px) {
         flex-direction: column;
-        margin: 0 0 10px 0;
+        margin: 0 20px 10px 20px;
         align-items: center;
         font-size: 1.6rem;
+      }
+      @media only screen and (max-width: 480px) {
+        font-size: 1.2rem;
       }
 
       li {
         @media only screen and (max-width: 900px) {
           margin: 10px 0 10px 0;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+          color: #d82594;
         }
       }
     }
@@ -125,6 +139,10 @@ header {
       font-size: 3rem;
       margin-bottom: 1.3rem;
       font-weight: 500;
+
+      @media only screen and (max-width: 480px) {
+        font-size: 2rem;
+      }
     }
   }
 }
@@ -154,6 +172,11 @@ header {
       margin: 1rem 0 4rem 0;
       font-size: 2.5rem;
     }
+
+    @media only screen and (max-width: 480px) {
+      font-size: 2rem;
+      width: 80vw;
+    }
   }
 
   ul {
@@ -168,7 +191,7 @@ header {
       gap: 2rem;
     }
     img {
-      margin: 0 3rem 0 3rem;
+      margin: 0 1.5rem 0 1.5rem;
     }
   }
 }
