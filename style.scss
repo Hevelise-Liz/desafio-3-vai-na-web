@@ -96,7 +96,7 @@ header {
   align-items: center;
   margin: 3rem;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1075px) {
     flex-direction: column;
   }
 
@@ -105,7 +105,7 @@ header {
       width: 32rem;
       margin-right: 2rem;
 
-      @media only screen and (max-width: 900px) {
+      @media only screen and (max-width: 1075px) {
         width: 80vw;
         margin: 0 2rem 4rem 2rem;
       }
@@ -116,7 +116,7 @@ header {
     width: 40rem;
     text-align: center;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1075px) {
       width: 70vw;
       margin: 0 1rem 2rem 1rem;
     }
@@ -125,10 +125,6 @@ header {
       font-size: 3rem;
       margin-bottom: 1.3rem;
       font-weight: 500;
-
-      @media only screen and (max-width: 900px) {
-        font-size: 2.2rem;
-      }
     }
   }
 }
@@ -140,7 +136,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1210px) {
     flex-direction: column;
     margin: 0 2rem 3rem 2rem;
   }
@@ -149,14 +145,14 @@ header {
     width: 30vw;
     font-weight: 500;
     font-size: 30px;
-    text-align: end;
+
     font-size: 2.5rem;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1210px) {
       width: 70vw;
       text-align: center;
-      margin: 0 0 4rem 0;
-      font-size: 2rem;
+      margin: 1rem 0 4rem 0;
+      font-size: 2.5rem;
     }
   }
 
@@ -165,8 +161,7 @@ header {
     display: flex;
     justify-content: space-evenly;
 
-
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1210px) {
       width: 70vw;
       flex-wrap: wrap;
       margin: 0 0 3rem 0;

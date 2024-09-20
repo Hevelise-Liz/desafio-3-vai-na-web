@@ -101,7 +101,7 @@ header nav ul {
   align-items: center;
   margin: 3rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1075px) {
   .informacao {
     flex-direction: column;
   }
@@ -110,7 +110,7 @@ header nav ul {
   width: 32rem;
   margin-right: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1075px) {
   .informacao .imagem-produtos img {
     width: 80vw;
     margin: 0 2rem 4rem 2rem;
@@ -120,7 +120,7 @@ header nav ul {
   width: 40rem;
   text-align: center;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1075px) {
   .informacao .informacao-produtos {
     width: 70vw;
     margin: 0 1rem 2rem 1rem;
@@ -131,11 +131,6 @@ header nav ul {
   margin-bottom: 1.3rem;
   font-weight: 500;
 }
-@media only screen and (max-width: 900px) {
-  .informacao .informacao-produtos h1 {
-    font-size: 2.2rem;
-  }
-}
 
 .produtos {
   display: flex;
@@ -144,7 +139,7 @@ header nav ul {
   flex-wrap: wrap;
   align-items: center;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1210px) {
   .produtos {
     flex-direction: column;
     margin: 0 2rem 3rem 2rem;
@@ -154,15 +149,14 @@ header nav ul {
   width: 30vw;
   font-weight: 500;
   font-size: 30px;
-  text-align: end;
   font-size: 2.5rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1210px) {
   .produtos h3 {
     width: 70vw;
     text-align: center;
-    margin: 0 0 4rem 0;
-    font-size: 2rem;
+    margin: 1rem 0 4rem 0;
+    font-size: 2.5rem;
   }
 }
 .produtos ul {
@@ -170,7 +164,7 @@ header nav ul {
   display: flex;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1210px) {
   .produtos ul {
     width: 70vw;
     flex-wrap: wrap;
