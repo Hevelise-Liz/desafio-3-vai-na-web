@@ -10,14 +10,14 @@ body {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
 }
 
 header nav {
   display: flex;
   margin: 0 0 10px 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   header nav {
     flex-direction: column;
     margin: 0 0 10px 0;
@@ -26,33 +26,43 @@ header nav {
   }
 }
 header nav img {
-  width: 9rem;
+  width: 12rem;
+}
+@media only screen and (max-width: 1380px) {
+  header nav img {
+    width: 8rem;
+  }
 }
 @media only screen and (max-width: 1150px) {
   header nav img {
     width: 5rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   header nav img {
-    width: 12rem;
+    width: 18rem;
     margin: 20px 0;
   }
 }
 header nav ul {
   width: 100%;
   display: flex;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 40px;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1880px) {
   header nav ul {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1380px) {
+  header nav ul {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1260px) {
   header nav ul {
     font-size: 1rem;
   }
@@ -62,34 +72,24 @@ header nav ul {
     font-size: 0.8rem;
   }
 }
-@media only screen and (max-width: 770px) {
-  header nav ul {
-    font-size: 0.7rem;
-  }
-}
-@media only screen and (max-width: 690px) {
-  header nav ul {
-    font-size: 0.6rem;
-  }
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   header nav ul {
     flex-direction: column;
     margin: 0 0 10px 0;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   header nav ul li {
     margin: 10px 0 10px 0;
   }
 }
 
 .imagem-topo img {
-  width: 100vw;
+  width: 100%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .imagem-topo img {
     display: none;
   }
@@ -101,44 +101,39 @@ header nav ul {
   align-items: center;
   margin: 3rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .informacao {
     flex-direction: column;
   }
 }
 .informacao .imagem-produtos img {
-  width: 22rem;
+  width: 32rem;
   margin-right: 2rem;
 }
 @media only screen and (max-width: 900px) {
   .informacao .imagem-produtos img {
-    width: 18rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .informacao .imagem-produtos img {
-    width: 24rem;
-    margin: 0 0 2rem 0;
+    width: 80vw;
+    margin: 0 2rem 4rem 2rem;
   }
 }
 .informacao .informacao-produtos {
-  width: 30rem;
+  width: 40rem;
   text-align: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .informacao .informacao-produtos {
-    width: 24rem;
+    width: 70vw;
     margin: 0 1rem 2rem 1rem;
   }
 }
 .informacao .informacao-produtos h1 {
-  font-size: 2.2rem;
+  font-size: 3rem;
   margin-bottom: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .informacao .informacao-produtos h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -149,20 +144,41 @@ header nav ul {
   flex-wrap: wrap;
   align-items: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .produtos {
     flex-direction: column;
+    margin: 0 2rem 3rem 2rem;
   }
 }
 .produtos h3 {
   width: 30vw;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 30px;
   text-align: end;
+  font-size: 2.5rem;
+}
+@media only screen and (max-width: 900px) {
+  .produtos h3 {
+    width: 70vw;
+    text-align: center;
+    margin: 0 0 4rem 0;
+    font-size: 2rem;
+  }
 }
 .produtos ul {
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+@media only screen and (max-width: 900px) {
+  .produtos ul {
+    width: 70vw;
+    flex-wrap: wrap;
+    margin: 0 0 3rem 0;
+    gap: 2rem;
+  }
+}
+.produtos ul img {
+  margin: 0 3rem 0 3rem;
 }/*# sourceMappingURL=style.css.map */

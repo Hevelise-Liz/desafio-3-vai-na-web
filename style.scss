@@ -10,7 +10,7 @@ body {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     display: flex;
     margin: 0 0 10px 15px;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 900px) {
       flex-direction: column;
       margin: 0 0 10px 0;
       align-items: center;
@@ -26,14 +26,17 @@ header {
     }
 
     img {
-      width: 9rem;
+      width: 12rem;
 
+      @media only screen and (max-width: 1380px) {
+        width: 8rem;
+      }
       @media only screen and (max-width: 1150px) {
         width: 5rem;
       }
 
-      @media only screen and (max-width: 600px) {
-        width: 12rem;
+      @media only screen and (max-width: 900px) {
+        width: 18rem;
 
         margin: 20px 0;
       }
@@ -41,38 +44,35 @@ header {
     ul {
       width: 100%;
       display: flex;
-      margin: 10px 0 0 20px;
+      margin: 10px 0 0 40px;
       justify-content: space-evenly;
       align-items: center;
-      font-size: 1.3rem;
+      font-size: 1.8rem;
 
-      @media only screen and (max-width: 1300px) {
-        font-size: 1.1rem;
+      @media only screen and (max-width: 1880px) {
+        font-size: 1.4rem;
+      }
+      @media only screen and (max-width: 1380px) {
+        font-size: 1.3rem;
       }
 
-      @media only screen and (max-width: 1150px) {
+      @media only screen and (max-width: 1260px) {
         font-size: 1rem;
       }
 
       @media only screen and (max-width: 1040px) {
         font-size: 0.8rem;
       }
-      @media only screen and (max-width: 770px) {
-        font-size: 0.7rem;
-      }
-      @media only screen and (max-width: 690px) {
-        font-size: 0.6rem;
-      }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 900px) {
         flex-direction: column;
         margin: 0 0 10px 0;
         align-items: center;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
       }
 
       li {
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 900px) {
           margin: 10px 0 10px 0;
         }
       }
@@ -82,9 +82,9 @@ header {
 
 .imagem-topo {
   img {
-    width: 100vw;
+    width: 100%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 900px) {
       display: none;
     }
   }
@@ -96,41 +96,38 @@ header {
   align-items: center;
   margin: 3rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     flex-direction: column;
   }
 
   .imagem-produtos {
     img {
-      width: 22rem;
+      width: 32rem;
       margin-right: 2rem;
 
       @media only screen and (max-width: 900px) {
-        width: 18rem;
-      }
-      @media only screen and (max-width: 600px) {
-        width: 24rem;
-        margin: 0 0 2rem 0;
+        width: 80vw;
+        margin: 0 2rem 4rem 2rem;
       }
     }
   }
 
   .informacao-produtos {
-    width: 30rem;
+    width: 40rem;
     text-align: center;
 
-    @media only screen and (max-width: 600px) {
-      width: 24rem;
+    @media only screen and (max-width: 900px) {
+      width: 70vw;
       margin: 0 1rem 2rem 1rem;
     }
 
     h1 {
-      font-size: 2.2rem;
+      font-size: 3rem;
       margin-bottom: 1.3rem;
-      font-weight: 400;
+      font-weight: 500;
 
-      @media only screen and (max-width: 600px) {
-        font-size: 1.8rem;
+      @media only screen and (max-width: 900px) {
+        font-size: 2.2rem;
       }
     }
   }
@@ -143,15 +140,24 @@ header {
   flex-wrap: wrap;
   align-items: center;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     flex-direction: column;
+    margin: 0 2rem 3rem 2rem;
   }
 
   h3 {
     width: 30vw;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30px;
     text-align: end;
+    font-size: 2.5rem;
+
+    @media only screen and (max-width: 900px) {
+      width: 70vw;
+      text-align: center;
+      margin: 0 0 4rem 0;
+      font-size: 2rem;
+    }
   }
 
   ul {
@@ -159,5 +165,15 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
+    @media only screen and (max-width: 900px) {
+      width: 70vw;
+      flex-wrap: wrap;
+      margin: 0 0 3rem 0;
+      gap: 2rem;
+    }
+    img {
+      margin: 0 3rem 0 3rem;
+    }
   }
 }
